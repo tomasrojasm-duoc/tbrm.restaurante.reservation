@@ -1,6 +1,6 @@
-package service.apis;
+package com.reservation.tbrm.restaurante.reservation.service.apis;
 
-import dto.TableResponseDto;
+import com.reservation.tbrm.restaurante.reservation.dto.TableResponseDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

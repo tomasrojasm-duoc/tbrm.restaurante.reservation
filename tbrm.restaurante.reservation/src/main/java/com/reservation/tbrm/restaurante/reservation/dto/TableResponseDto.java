@@ -1,4 +1,4 @@
-package dto;
+package com.reservation.tbrm.restaurante.reservation.dto;
 
 import lombok.Getter;
 import lombok.Setter;

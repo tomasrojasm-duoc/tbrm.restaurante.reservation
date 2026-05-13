@@ -1,7 +1,7 @@
-package service;
+package com.reservation.tbrm.restaurante.reservation.service;
 
-import dto.ReservationRequestDto;
-import dto.ReservationResponseDto;
+import com.reservation.tbrm.restaurante.reservation.dto.ReservationRequestDto;
+import com.reservation.tbrm.restaurante.reservation.dto.ReservationResponseDto;
 
 import java.util.List;
 

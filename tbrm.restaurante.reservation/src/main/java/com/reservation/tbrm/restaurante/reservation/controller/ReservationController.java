@@ -1,8 +1,8 @@
-package controller;
+package com.reservation.tbrm.restaurante.reservation.controller;
 
-import dto.ReservationRequestDto;
-import dto.ReservationResponseDto;
-import service.ReservationService;
+import com.reservation.tbrm.restaurante.reservation.dto.ReservationRequestDto;
+import com.reservation.tbrm.restaurante.reservation.dto.ReservationResponseDto;
+import com.reservation.tbrm.restaurante.reservation.service.ReservationService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

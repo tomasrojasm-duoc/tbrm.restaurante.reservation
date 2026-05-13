@@ -1,27 +1,24 @@
-package model;
+package com.reservation.tbrm.restaurante.reservation.dto;
 
-import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Entity
 @Setter
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Reservation {
+public class ReservationResponseDto {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @NotNull
     private Long id;
-
-    @Column(name = "diner_id")
+    @NotNull
     private Long dinerId;
-
-    @Column(name = "table_id")
+    @NotNull
     private Long tableId;
-
+    @NotBlank
     private String date;
 }

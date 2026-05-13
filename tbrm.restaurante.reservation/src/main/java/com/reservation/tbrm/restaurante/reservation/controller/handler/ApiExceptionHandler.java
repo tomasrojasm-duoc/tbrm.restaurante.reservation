@@ -1,6 +1,6 @@
-package controller.handler;
+package com.reservation.tbrm.restaurante.reservation.controller.handler;
 
-import dto.ExceptionDto;
+import com.reservation.tbrm.restaurante.reservation.dto.ExceptionDto;
 import feign.RetryableException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;

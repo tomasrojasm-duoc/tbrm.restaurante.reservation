@@ -1,6 +1,6 @@
-package repository;
+package com.reservation.tbrm.restaurante.reservation.repository;
 
-import model.Reservation;
+import com.reservation.tbrm.restaurante.reservation.model.Reservation;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,12 +1,12 @@
-package service.impl;
+package com.reservation.tbrm.restaurante.reservation.service.impl;
 
-import dto.ReservationRequestDto;
-import dto.ReservationResponseDto;
-import model.Reservation;
-import repository.ReservationRepository;
-import service.ReservationService;
-import service.apis.DinerClient;
-import service.apis.TableClient;
+import com.reservation.tbrm.restaurante.reservation.dto.ReservationRequestDto;
+import com.reservation.tbrm.restaurante.reservation.dto.ReservationResponseDto;
+import com.reservation.tbrm.restaurante.reservation.model.Reservation;
+import com.reservation.tbrm.restaurante.reservation.repository.ReservationRepository;
+import com.reservation.tbrm.restaurante.reservation.service.ReservationService;
+import com.reservation.tbrm.restaurante.reservation.service.apis.DinerClient;
+import com.reservation.tbrm.restaurante.reservation.service.apis.TableClient;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;
